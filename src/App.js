@@ -5,8 +5,6 @@ import { Users } from './components/Users';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
-// Тут список пользователей: https://reqres.in/api/users
-
 function App() {
   const [users, setUsers] = useState([]);
   const [invites, setInvaites] = useState([]);
